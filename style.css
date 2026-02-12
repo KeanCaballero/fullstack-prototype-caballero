@@ -2,7 +2,6 @@
 .page {
   display: none;
 }
-
 .page.active {
   display: block;
 }
@@ -11,7 +10,6 @@
 body.not-authenticated .role-logged-in {
   display: none;
 }
-
 body.authenticated .role-logged-out {
   display: none;
 }
@@ -20,7 +18,6 @@ body.authenticated .role-logged-out {
 .role-admin {
   display: none;
 }
-
 body.is-admin .role-admin {
   display: block;
 }
@@ -30,7 +27,7 @@ body.is-admin .role-admin {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.5);
-  display: flex;           /* visible when d-none is removed */
+  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1050;
